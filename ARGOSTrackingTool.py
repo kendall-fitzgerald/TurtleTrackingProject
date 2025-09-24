@@ -26,7 +26,7 @@ ob_lc = lineData[4]       # Observation Location Class
 print(ob_lc)
 obs_lat = lineData[6]  # Observation Latitude
 print(obs_lat)   
-obs_lon = lineData[8]     # Observation Longitude
+obs_lon = lineData[7]     # Observation Longitude
 print(obs_lon)
   
 # Print information to the use
