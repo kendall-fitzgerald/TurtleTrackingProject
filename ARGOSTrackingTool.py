@@ -22,11 +22,11 @@ record_id = lineData[0]   # ARGOS tracking record ID
 print(record_id)
 obs_date = lineData[2]   # Observation date
 print(obs_date)
-ob_lc = lineData[3]       # Observation Location Class
+ob_lc = lineData[4]       # Observation Location Class
 print(ob_lc)
-obs_lat = lineData[5,7]  # Observation Latitude
+obs_lat = lineData[6]  # Observation Latitude
 print(obs_lat)   
-obs_lon = lineData[6,8]     # Observation Longitude
+obs_lon = lineData[8]     # Observation Longitude
 print(obs_lon)
   
 # Print information to the use
