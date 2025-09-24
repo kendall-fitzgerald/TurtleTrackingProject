@@ -21,10 +21,13 @@ print(lineData)
 record_id = lineData[0]   # ARGOS tracking record ID
 print(record_id)
 obs_date = lineData[2]   # Observation date
+print(obs_date)
 ob_lc = lineData[3]       # Observation Location Class
+print(ob_lc)
 obs_lat = lineData[5,7]  # Observation Latitude
 print(obs_lat)   
 obs_lon = lineData[6,8]     # Observation Longitude
+print(obs_lon)
   
 # Print information to the use
 print (f"Record {record_id} indicates Sara was seen at {obs_lat}N and {obs_lon}W on {obs_date}")
